@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://52yyl.github.io/"/>
-  <updated>2018-05-20T04:11:06.475Z</updated>
+  <updated>2018-05-20T12:39:13.373Z</updated>
   <id>https://52yyl.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://52yyl.github.io/2018/05/20/2018.5.20/"/>
     <id>https://52yyl.github.io/2018/05/20/2018.5.20/</id>
     <published>2018-05-20T03:12:54.374Z</published>
-    <updated>2018-05-20T04:11:06.475Z</updated>
+    <updated>2018-05-20T12:39:13.373Z</updated>
     
-    <content type="html"><![CDATA[<p>今天是个好日子(5.20),还记得去年的今天…(此处省略千百字),也正是那时候我开始在互联网的路上越走越深.</p><h2 id="菜鸡黑客之路"><a href="#菜鸡黑客之路" class="headerlink" title="菜鸡黑客之路"></a>菜鸡黑客之路</h2><p>说到hacker,很多人都会充满了憧憬与向往,当然我也曾经有过黑客梦.起初,我理解的黑客就是一群搞破坏的猥琐男,黑别人的网站挂个马就觉得牛逼了上天了.后来,当我接触的那种所谓的黑客多了之后,我觉得他们和其他人都一样,只是对黑客技术有着更多的热爱和追求.而我,也像那些所谓的黑客一样<a id="more"></a>(当然不猥琐2333),黑别人家的网站挂别人家的黑页放别人家的马,当时一样也觉得牛逼上天了(毕竟当时年少无知),也不知从哪儿学来的菜鸟技术,还真把自己当黑客了.于是便开始肆无忌惮的追求黑客技术,终于…(你猜啊).事后觉得我学到的不是什么黑客技术,那仅仅是一些小学生都会的小把戏.到现在我明白黑客不是一群猥琐男,黑客代表的是一种精神,是一种极度热爱,坚持不懈的精神.在此,为那些为了和平而战斗的黑客们致敬!</p>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>&emsp;&emsp;今天是个好日子(5.20),还记得去年的今天…(此处省略千百字),也正是那时候我开始在互联网的路上越走越深.</p><h2 id="菜鸡黑客之路"><a href="#菜鸡黑客之路" class="headerlink" title="菜鸡黑客之路"></a>菜鸡黑客之路</h2><p>&emsp;&emsp;说到hacker,很多人都会充满了憧憬与向往,当然我也曾经有过黑客梦.起初,我理解的黑客就是一群搞破坏的猥琐男,黑别人的网站挂个马就觉得牛逼了上天了.后来,当我接触的那种所谓的黑客多了之后,我觉得他们和其他人都一样,只是对黑客技术有着更多的热爱和追求.而我,也像那些所谓的黑客一样<a id="more"></a>(当然不猥琐2333),黑别人家的网站挂别人家的黑页放别人家的马,当时一样也觉得牛逼上天了(毕竟当时年少无知),也不知从哪儿学来的菜鸟技术,还真把自己当黑客了.于是便开始肆无忌惮的追求黑客技术,终于…(你猜啊).事后觉得我学到的不是什么黑客技术,那仅仅是一些小学生都会的小把戏.到现在我明白黑客不是一群猥琐男,黑客代表的是一种精神,是一种极度热爱,坚持不懈的精神.在此,为那些为了和平而战斗的黑客们致敬!</p><h2 id="初探web前端"><a href="#初探web前端" class="headerlink" title="初探web前端"></a>初探web前端</h2><p>&emsp;&emsp;首次接触web前端大概是在去年九月份,当时并没有web前端这个概念只会cv大法(也就是复制粘贴2333),出现一个特别小的bug我也不知道是什么情况,后来先是了解了html还不知道有css和JavaScript这么个东西,看到漂亮的网页查看源代码复制下来保存为html文件在浏览器打开后却只看到一些字,根本没有它原来的面貌,这令我百思不得其解,在百度搜了一圈后才知道网页都是通过css来渲染的,于是学会了div+css初步能做出一些简单的静态页面.之后接触到越来越刁的技术,爱学习的我当然不满足与学到的那点东西,于是乎开始并会一直学习h5 c3 js 小程序等web前端技术…改变和提升的是自己的技术,不变的是当初的那股热爱和执着!</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;今天是个好日子(5.20),还记得去年的今天…(此处省略千百字),也正是那时候我开始在互联网的路上越走越深.&lt;/p&gt;
-&lt;h2 id=&quot;菜鸡黑客之路&quot;&gt;&lt;a href=&quot;#菜鸡黑客之路&quot; class=&quot;headerlink&quot; title=&quot;菜鸡黑客之路&quot;&gt;&lt;/a&gt;菜鸡黑客之路&lt;/h2&gt;&lt;p&gt;说到hacker,很多人都会充满了憧憬与向往,当然我也曾经有过黑客梦.起初,我理解的黑客就是一群搞破坏的猥琐男,黑别人的网站挂个马就觉得牛逼了上天了.后来,当我接触的那种所谓的黑客多了之后,我觉得他们和其他人都一样,只是对黑客技术有着更多的热爱和追求.而我,也像那些所谓的黑客一样
+      &lt;p&gt;&amp;emsp;&amp;emsp;今天是个好日子(5.20),还记得去年的今天…(此处省略千百字),也正是那时候我开始在互联网的路上越走越深.&lt;/p&gt;
+&lt;h2 id=&quot;菜鸡黑客之路&quot;&gt;&lt;a href=&quot;#菜鸡黑客之路&quot; class=&quot;headerlink&quot; title=&quot;菜鸡黑客之路&quot;&gt;&lt;/a&gt;菜鸡黑客之路&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;说到hacker,很多人都会充满了憧憬与向往,当然我也曾经有过黑客梦.起初,我理解的黑客就是一群搞破坏的猥琐男,黑别人的网站挂个马就觉得牛逼了上天了.后来,当我接触的那种所谓的黑客多了之后,我觉得他们和其他人都一样,只是对黑客技术有着更多的热爱和追求.而我,也像那些所谓的黑客一样
     
     </summary>
     
@@ -42,14 +42,13 @@
     <published>2018-05-19T14:29:46.461Z</published>
     <updated>2018-05-19T15:00:20.897Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://52yyl.github.io/">墨殇博客</a>! 不会分享的程序员不是一个好的程序员,我的分享从此时此刻开始</p><h2 id="敬请期待"><a href="#敬请期待" class="headerlink" title="敬请期待"></a>敬请期待</h2>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Welcome to <a href="https://52yyl.github.io/">墨殇博客</a>! 不会分享的程序员不是一个好的程序员,我的分享从此时此刻开始</p><h2 id="敬请期待"><a href="#敬请期待" class="headerlink" title="敬请期待"></a>敬请期待</h2>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://52yyl.github.io/&quot;&gt;墨殇博客&lt;/a&gt;! 不会分享的程序员不是一个好的程序员,我的分享从此时此刻开始&lt;/p&gt;
-&lt;h2 id=&quot;敬请期待&quot;&gt;&lt;a href=&quot;#敬请期待&quot; class=&quot;headerlink
+        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://52yyl.github.io/&quot;&gt;墨殇博客&lt;/a&gt;! 不会分享的程序员不是一个好的程序员,我的分享从此时此刻开始&lt;/
       
     
     </summary>
