@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://52yyl.github.io/"/>
-  <updated>2018-05-19T15:00:20.897Z</updated>
+  <updated>2018-05-20T03:31:19.199Z</updated>
   <id>https://52yyl.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从入门到入坑</title>
+    <link href="https://52yyl.github.io/2018/05/20/2018.5.20/"/>
+    <id>https://52yyl.github.io/2018/05/20/2018.5.20/</id>
+    <published>2018-05-20T03:12:54.374Z</published>
+    <updated>2018-05-20T03:31:19.199Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天是个好日子(5.20),还记得去年的今天…(此处省略千百字),也正是那时候我开始在互联网的路上越走越深.</p><h4 id="菜鸡黑客之路"><a href="#菜鸡黑客之路" class="headerlink" title="菜鸡黑客之路"></a>菜鸡黑客之路</h4><p>  说到hacker,很多人都会像我一样充满了憧憬与向往.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天是个好日子(5.20),还记得去年的今天…(此处省略千百字),也正是那时候我开始在互联网的路上越走越深.&lt;/p&gt;
+&lt;h4 id=&quot;菜鸡黑客之路&quot;&gt;&lt;a href=&quot;#菜鸡黑客之路&quot; class=&quot;headerlink&quot; title=&quot;菜鸡黑客之路&quot;&gt;&lt;/a&gt;菜鸡黑客之路
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
