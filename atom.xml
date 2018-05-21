@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>墨殇博客</title>
+  <title>墨殇博客-MoShang`s blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://52yyl.github.io/</id>
   
   <author>
-    <name>墨殇</name>
+    <name>墨若浮尘 殇死随风</name>
     
   </author>
   
