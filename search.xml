@@ -42,7 +42,7 @@
       <title>Hello World</title>
       <link href="/2018/05/19/hello-world/"/>
       <url>/2018/05/19/hello-world/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Welcome to <a href="https://52yyl.github.io/">墨殇博客</a>! 不会分享的程序员不是一个好的程序员,我的分享从此时此刻开始</p><h2 id="敬请期待"><a href="#敬请期待" class="headerlink" title="敬请期待"></a>敬请期待</h2>]]></content>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Welcome to <a href="https://52yyl.github.io/">墨殇博客</a>! 不会分享的程序员不是一个好的程序员,我的分享从此时此刻开始</p><embed autostart="true" hidden="true" loop="true" src="img/bg.mp3"><h2 id="敬请期待"><a href="#敬请期待" class="headerlink" title="敬请期待"></a>敬请期待</h2>]]></content>
       
       
         <tags>
