@@ -252,7 +252,7 @@ a {
 }
 #container .left-col {
   background: url("../img/bg.jpg") #515457;
-  width: 300px;
+  width: '' px;
   position: fixed;
   opacity: 1;
   -webkit-transition: all 0.2s ease-in;
@@ -5096,7 +5096,7 @@ pre .link_url {
   }
 }
 body {
-  background: url("../img/p1543.jpg");
+  background-image: url("../img/p1543.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -5104,7 +5104,7 @@ body {
   color: #000;
 }
 #container .left-col {
-  background: none !important;
+  background-image: url("../img/left.jpg");
 }
 .article-title {
   color: #000;
