@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hackercode.cn/"/>
-  <updated>2018-06-05T04:38:47.791Z</updated>
+  <updated>2018-06-05T04:23:07.187Z</updated>
   <id>http://hackercode.cn/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>六种炫酷鼠标悬停效果</title>
-    <link href="http://hackercode.cn/2018/06/05/%E5%85%AD%E7%A7%8D%E7%82%AB%E9%85%B7%E9%BC%A0%E6%A0%87%E6%82%AC%E5%81%9C%E6%95%88%E6%9E%9C/"/>
-    <id>http://hackercode.cn/2018/06/05/六种炫酷鼠标悬停效果/</id>
-    <published>2018-06-05T04:37:27.000Z</published>
-    <updated>2018-06-05T04:38:47.791Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><img src="/img/hover.png" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;&lt;img src=&quot;/img/hover.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="hover css" scheme="http://hackercode.cn/tags/hover-css/"/>
-    
-  </entry>
   
   <entry>
     <title>音乐播放器demo</title>
