@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hackercode.cn/"/>
-  <updated>2018-06-05T05:56:15.611Z</updated>
+  <updated>2018-06-05T05:59:59.710Z</updated>
   <id>http://hackercode.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://hackercode.cn/2018/06/05/hexo%E5%8D%9A%E5%AE%A2%E6%8F%92%E5%85%A5%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/"/>
     <id>http://hackercode.cn/2018/06/05/hexo博客插入背景音乐/</id>
     <published>2018-06-05T05:53:01.003Z</published>
-    <updated>2018-06-05T05:56:15.611Z</updated>
+    <updated>2018-06-05T05:59:59.710Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><hr><p>title: hexo博客插入背景音乐<br>date: 2018-06-05 13:53:00<br>tags:</p><pre><code>- hexo- 背景音乐</code></pre><hr><p>在hexo博客首页文章中插入html标签实现背景音乐播放<br><a id="more"></a></p>]]></content>
     
