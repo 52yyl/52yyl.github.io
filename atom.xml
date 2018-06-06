@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hackercode.cn/"/>
-  <updated>2018-06-06T13:35:04.640Z</updated>
+  <updated>2018-06-06T13:38:40.959Z</updated>
   <id>http://hackercode.cn/</id>
   
   <author>
@@ -21,13 +21,13 @@
     <link href="http://hackercode.cn/2018/06/06/%E7%8E%A9%E8%BD%ACGit%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
     <id>http://hackercode.cn/2018/06/06/玩转Git命令行/</id>
     <published>2018-06-06T13:14:41.000Z</published>
-    <updated>2018-06-06T13:35:04.640Z</updated>
+    <updated>2018-06-06T13:38:40.959Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>在本书中，我们将使用命令行模式.这是因为首先，只有在命令行模式下你才能执行 Git 的所有 命令.<br><a id="more"></a></p>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>在本文中，我们将使用命令行模式.这是因为首先，只有在命令行模式下你才能执行 Git 的所有 命令.<br><a id="more"></a></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;在本书中，我们将使用命令行模式.这是因为首先，只有在命令行模式下你才能执行 Git 的所有 命令.&lt;br&gt;
+      &lt;p&gt;在本文中，我们将使用命令行模式.这是因为首先，只有在命令行模式下你才能执行 Git 的所有 命令.&lt;br&gt;
     
     </summary>
     
