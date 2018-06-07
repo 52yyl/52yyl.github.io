@@ -15,7 +15,7 @@
 	body{
         position: relative;
         font-family: 'robotolight';
-        background:#f1f2f3 url('img/bg.jpg') center;
+        background:#f1f2f3 url('https://s1.ax2x.com/2018/06/07/RyGGE.jpg') center;
         background-attachment: fixed;
         background-size: 100% 100%;
         overflow-X: hidden;
@@ -79,7 +79,7 @@
        animation-delay: 2s;
     }
     @keyframes li{
-        0%{ margin-top:-100px;}
+        0%{ margin-top:-200px;}
         25%{margin-top:0;}
         50%{margin-top:-20px;}
         100%{ margin-top:0px;}
@@ -174,6 +174,7 @@
         background-color:rgba(40,40,40,.5);
     }
     ol{
+        justify-content:center;
         column-count: 3;
 　　    column-gap: 0;
         width:90%;
@@ -185,7 +186,7 @@
         box-sizing: border-box;
 　　    break-inside: avoid;
         margin:2rem 1rem;
-        transition:1s;
+        transition:2s;
     }
     ol li:hover .alt{
         transform-origin: bottom;
@@ -255,11 +256,14 @@
         font-size:.8rem;
     }
     @media screen and (max-width:600px){
+        body{
+            background-size: 100% 120%;
+        }
         ol{
             column-count: 1;
         }
         header{
-            height:40rem;
+            height:30rem;
         }
         .head{
             text-align:center;
@@ -269,7 +273,7 @@
             text-align:center;
             margin:auto;
             width:100%;
-            padding-top:4rem;
+            padding-top:2rem;
         }
         .head .logo a{
             display:inline-block;
@@ -280,11 +284,27 @@
             margin:auto;
         }
         .head_text{
-            margin-top:4rem;
+            margin-top:2rem;
+        }
+        .head_text p:first-child{
+            font-size:1.5rem;
+        }
+        input{
+            width:7rem;
+        }
+        .head_text a{
+            width:4rem;
+        }
+        ol>li{
+            margin-left:-.1rem;
         }
         footer{
-            height:8rem;
-            margin-bottom:1rem;
+            padding-top:2rem;
+            height:5rem;
+            margin-bottom:-1rem;
+        }
+        footer>p{
+            line-height:2rem;
         }
     }
     @media screen and (max-width:1000px) and (min-width:600px){
