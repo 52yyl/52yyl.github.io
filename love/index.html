@@ -255,7 +255,7 @@
         line-height:2.5rem;
         font-size:.8rem;
     }
-    @media screen and (max-width:600px){
+    @media (max-width:600px){
         body{
             background-size: 100% 120%;
         }
@@ -263,7 +263,10 @@
             column-count: 1;
         }
         header{
-            height:30rem;
+            height:35rem;
+        }
+        #top{
+            display:none;
         }
         .head{
             text-align:center;
@@ -290,10 +293,10 @@
             font-size:1.5rem;
         }
         input{
-            width:7rem;
+            width:10rem;
         }
         .head_text a{
-            width:4rem;
+            width:6rem;
         }
         ol>li{
             margin-left:-.1rem;
@@ -301,15 +304,21 @@
         footer{
             padding-top:2rem;
             height:5rem;
-            margin-bottom:-1rem;
+            margin-bottom:-2rem;
         }
         footer>p{
             line-height:2rem;
         }
     }
-    @media screen and (max-width:1000px) and (min-width:600px){
+    @media (max-width:1000px) and (min-width:600px){
         ol{
             column-count: 2;
+        }
+        input{
+            width:12rem;
+        }
+        .head_text a{
+            width:8rem;
         }
     }
   </style>
