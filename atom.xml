@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hackercode.cn/"/>
-  <updated>2018-06-06T13:38:40.959Z</updated>
+  <updated>2018-06-07T12:37:48.205Z</updated>
   <id>http://hackercode.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于程序员的段子,有没有get到你的点?</title>
+    <link href="http://hackercode.cn/2018/06/06/%E5%85%B3%E4%BA%8E%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E6%AE%B5%E5%AD%90-%E6%9C%89%E6%B2%A1%E6%9C%89get%E5%88%B0%E4%BD%A0%E7%9A%84%E7%82%B9/"/>
+    <id>http://hackercode.cn/2018/06/06/关于程序员的段子-有没有get到你的点/</id>
+    <published>2018-06-06T15:18:00.236Z</published>
+    <updated>2018-06-07T12:37:48.205Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>点进来看哦,是程序员你不笑算我输.<br><a id="more"></a><br>(1) 程序员的读书历程:</p><blockquote><p>x 语言入门 —&gt; x 语言应用实践 —&gt; x 语言高阶编程 —&gt; x 语言的科学与艺术 —&gt; 编程之美 —&gt; 编程之道 —&gt; 编程之禅—&gt; 颈椎病康复指南<br>(2) 程序员最讨厌的四件事：<br>写注释、写文档、别人不写注释、别人不写文档<br>(3) 十行代码 九个警告 八个错误 竟然敢说七日精通 六天学会 五湖四海也不见如此 三心二意之项目经理 简直一等下流。<br>(4) 世界上最遥远的距离不是生与死，而是你亲手制造的 BUG 就在你眼前，你却怎么都找不到她。<br>(5) 世界上最远的距离，是我在 if 里你在 else 里，虽然经常一起出现，但却永不结伴执行。<br>(6)我很奇怪客栈这个词，难道后入住的必须先退房吗？<br>(7)作为IT人员，你觉得什么工具能大大提高你的工作效率？<br>单身<br>(8) Android上能提高学习、工作效率的应用有哪些？<br>关机<br>(9) 为什么很多程序员、geek 都喜欢熬夜，而且在后半夜工作效率异常高？<br>一个姑娘问我，搞学术的为什么都睡得那么晚，难道只有到晚上才有灵感？不是，姑娘，搞学术不靠灵感，靠的是碌碌无为的白天引发的愧疚心。<br>(10) 单身程序狗解决了一个技术难题后没有妹子可以炫耀或夸一下自己怎么办？<br>现在你明白了吧，为什么那么多程序员要写技术博客。<br>(11) 程序员的核心竞争力是什么？为什么？<br>玩算法的码农，打拼靠蓝条，像是法师。数学就等于蓝条最大值，数学差，魔法值不高，很快就到瓶颈了。外语影响回蓝速度。经验和智力加急速和穿透的。不玩算法的码农，像是战士，打拼靠血条，体质加生命，精神加生命回复，经验和敏捷加急速和破甲。<br>(12) 程序员最常说的谎言是什么？<br>// TODO<br>(13) 程序员的鄙视链是什么？<br>老婆漂亮的程序员，鄙视老婆不漂亮的程序员。 有老婆的程序员，鄙视没有老婆的程序员。 没有老婆有女朋友的程序员，鄙视单身程序狗。 在单身狗之间，才有语言、编辑器和操作系统的互相鄙视。<br>(14) 女票允许我出轨，并且还介绍她闺密给我认识。在她真的很爱我的前提下，该如何理解她的行为？<br>千万不要上当！！！Mac告诉你，我也可以装windows哦，但你真的装了，会用高发热来报复你的!<br>(15) 分手100天了，还没有走出来怎么办？<br>替换文件永远比删除文件更彻底。<br>(16) 程序员夫妻结婚戒指刻什么字好？<br>0 error 0 warning</p></blockquote><p>声明:本文来自微信<br>原文链接:<a href="https://segmentfault.com/a/1190000014818487" target="_blank" rel="noopener">https://segmentfault.com/a/1190000014818487</a></p><h2 id="搬砖结束"><a href="#搬砖结束" class="headerlink" title="搬砖结束"></a>搬砖结束</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;点进来看哦,是程序员你不笑算我输.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="程序员" scheme="http://hackercode.cn/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+      <category term="段子" scheme="http://hackercode.cn/tags/%E6%AE%B5%E5%AD%90/"/>
+    
+  </entry>
   
   <entry>
     <title>玩转Git命令行</title>

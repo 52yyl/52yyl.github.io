@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
+  <link rel="icon" href="img/favicon.ico">
+  <title>怀念初恋</title>
+  <style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	body{
+        position: relative;
+        font-family: 'robotolight';
+        background:#f1f2f3 url('img/bg.jpg') center;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        overflow-X: hidden;
+        
+	}
+    header{
+        position: relative;
+        width:100%;
+        height:30rem;
+        background-color:rgba(30,30,30,.8);
+    }
+    header .head{
+        width:85%;
+        height:6rem;
+        margin:auto;
+        padding-top:2rem;
+        /* background-color: #000; */
+    }
+    .head .logo{
+        width:20rem;
+        height:4rem;
+        text-align:center;
+        /* background-color: #fff;  */
+    }
+    .head ul{
+        float:right;
+        margin-top:-3.7rem;
+        width:15rem;
+        height:2rem;
+        list-style:none;
+        /* background-color: pink; */
+    }
+    .head ul li{
+        float:left;
+        width:2rem;
+        height:2rem;
+        margin:0 .4rem;
+        border:#fff 1px solid;
+        border-radius:50%;
+        background-image: url('img/libg.png');
+        background-size: 190% 190%;
+        background-position: -.9rem;
+        color:#fff;
+        /* box-shadow:skyblue 0 0 2px 2px; */
+        text-align:center;
+        line-height:2rem;
+        margin-top:-100px;
+        animation:li 2s ease;
+        animation-fill-mode : forwards
+    }
+    .head ul li:nth-child(2){
+       animation-delay: .5s;
+    }
+    .head ul li:nth-child(3){
+       animation-delay: 1s;
+    }
+    .head ul li:nth-child(4){
+       animation-delay: 1.5s;
+    }
+    .head ul li:nth-child(5){
+       animation-delay: 2s;
+    }
+    @keyframes li{
+        0%{ margin-top:-100px;}
+        25%{margin-top:0;}
+        50%{margin-top:-20px;}
+        100%{ margin-top:0px;}
+    }
+    .head ul li:hover{
+        background-color: #fff;
+        color:skyblue;
+    }
+    .logo a{
+        text-decoration: none;
+    }
+    .logo h1{
+        float:left;
+        color:#fff;
+        font-size:1.5rem;
+    }
+    h1>span{
+        font-weight:normal;
+        font-size:1.2rem;
+        margin-left:.5rem;
+        font-family: '宋体';
+
+    }
+    .head_text{
+        position: absolute;
+        width:100%;
+        margin:auto;
+        /* background-color:#fff; */
+        color:#fff;
+        text-align:center;
+        /* background-color: skyblue; */
+    }
+    .head_text p{
+        font-size:.9rem;
+        line-height:1.5rem;
+    }
+    .head_text span{
+        color:#66BBEE;
+    }
+    .head_text p:first-child{
+        font-size:2rem;
+        line-height:8rem;
+    }
+    input{
+        width:14rem;
+        height:2.5rem;
+        padding-left:1rem;
+        background-color:transparent;
+        margin:2rem 1rem;
+        border:0;
+        color:#fff;
+        outline: none;
+        border:#fff 1px solid;
+    }
+    .head_text a{
+        width:6rem;
+        height:2.6rem;
+        margin:2rem 1rem;
+        background-color:#fff;
+        color:#000;
+        display:inline-block;
+        text-decoration:none;
+        vertical-align:top;
+        line-height:2.6rem;
+        text-align:center;
+        font-size:.9rem;
+    }
+    section{
+        width:100%;
+        padding-top:2rem;
+        padding-bottom:2rem;
+        background-color:rgba(45,45,45,.6);
+    }
+    #top{
+        position: fixed;
+        width:3rem;
+        height:3rem;
+        right:.7rem;
+        bottom:3rem;
+        border-radius:.2rem;
+        transform:rotate(90deg);
+        text-align:center;
+        line-height:3rem;
+        font-family:'宋体';
+        font-size:2rem;
+        z-index:200;
+        background-color:rgba(40,40,40,.9);
+    }
+    #top:hover{
+        cursor:pointer;
+        background-color:rgba(40,40,40,.5);
+    }
+    ol{
+        column-count: 3;
+　　    column-gap: 0;
+        width:90%;
+        margin:auto;
+        list-style-type:none;
+    }
+    ol>li{
+        position: relative;
+        box-sizing: border-box;
+　　    break-inside: avoid;
+        margin:2rem 1rem;
+        transition:1s;
+    }
+    ol li:hover .alt{
+        transform-origin: bottom;
+        transform:rotateX(90deg);
+        transition:.5s;
+    }
+    ol>li>img{
+        position: relative;
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        width:100%;
+        height: 100%;
+        border:.5rem #fff solid;
+    }
+    .li_text{
+        position: absolute;
+        width:100%;
+        height:96%;
+        left:.5rem;
+        top:.5rem;
+        background-color:rgba(10,10,10,.9);
+        transform-origin: top;
+        transform:rotateX(-90deg);
+        opacity:0;
+        text-align:center;
+        color:#fff;
+        transition:.5s linear;
+        z-index:30;
+    }
+    .text{
+        position: absolute;
+        padding-top:3rem;
+        width:100%;
+        height:100%;
+        font-size:.8rem;
+        line-height:2rem;
+    }
+    ol li:hover .li_text{
+        transform:rotateX(0deg);
+        opacity:1;
+    }
+    .alt{
+        position: absolute;
+        width: 100%;
+        height: 3rem;
+        bottom:.5rem;
+        left:.5rem;
+        background-color:rgba(30,30,30,.9);
+        z-index:30;
+        transition:.5s .5s;
+        line-height:3rem;
+        text-align:center;
+        color:#fff;
+    }
+    footer{
+        width:100%;
+        height:8rem;
+        padding-top:3rem;
+        margin-bottom:2rem;
+        background-color:rgba(30,30,30,.8);
+    }
+    footer>p{
+        color:#fff;
+        text-align:center;
+        line-height:2.5rem;
+        font-size:.8rem;
+    }
+    @media screen and (max-width:600px){
+        ol{
+            column-count: 1;
+        }
+        header{
+            height:40rem;
+        }
+        .head{
+            text-align:center;
+        }
+        .head .logo{
+            text-align:center;
+            margin:auto;
+            padding-top:4rem;
+        }
+        .head .logo a{
+            display:inline-block;
+            text-align:center;
+        }
+        .head ul{
+            float:none;
+            margin:auto;
+        }
+        .head_text{
+            margin-top:4rem;
+        }
+        footer{
+            height:8rem;
+            margin-bottom:1rem;
+        }
+    }
+    @media screen and (max-width:1000px) and (min-width:600px){
+        ol{
+            column-count: 2;
+        }
+    }
+  </style>
+  </head>
+  <body>
+    <div id='top'> < </div>  
+    <header>
+        <div class='head'>
+            <div class='logo'>
+                <a href='javascript:;'>
+                    <h1>怀念初恋<span>My Love</span></h1>
+                </a>
+            </div>
+            <ul>
+                <li>千</li>
+                <li>里</li>
+                <li>共</li>
+                <li>婵</li>
+                <li>娟</li>
+            </ul>
+        </div>
+        <div class='head_text'>
+            <p>今夜无关爱憎 <span>我只想你</span></p>
+            <p>想了你一整夜,</p>
+            <p>再也想不起你的脸.</p>
+            <p>你是一种感觉,</p>
+            <p>写在夏夜晚风里.</p>
+            <input type='text' value='众里寻她千百度'/>
+            <a href='javascript:;'>蓦然回首</a>
+        </div>
+    </header>
+    <section>
+        <ol>
+            <li>
+                <div class='alt'>初识</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/1.jpg'>
+            </li>
+            <li>
+                <div class='alt'>初见</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/2.jpg'>
+            </li>
+            <li>
+                <div class='alt'>再见</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/3.jpg'>
+            </li>
+            <li>
+                <div class='alt'>幸运女神</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/4.jpg'>
+            </li>
+            <li>
+                <div class='alt'>情侣</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/5.jpg'>
+            </li>
+            <li>
+                <div class='alt'>花花</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/6.jpg'>
+            </li>
+            <li>
+                <div class='alt'>旅行</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/1.jpg'>
+            </li>
+            <li>
+                <div class='alt'>小美好</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/2.jpg'>
+            </li>
+            <li>
+                <div class='alt'>一见钟情</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/3.jpg'>
+            </li>
+            <li>
+                <div class='alt'>小幸运</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/4.jpg'>
+            </li>
+            <li>
+                <div class='alt'>分手</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/5.jpg'>
+            </li>
+            <li>
+                <div class='alt'>保重</div>
+                <div class='li_text'>
+                    <div class='text'>
+                        <p>+</p>
+                        <p>30 May 2018</p>
+                        <p>Thanks for the meeting!</p>
+                        <p>太久没相见的人会慢慢的连想念都没有了</p>
+                    </div>
+                </div>
+                <img src='img/6.jpg'>
+            </li>
+        </ol>
+    </section>
+    <footer>
+        <p>执子之手 与子偕老</p>
+        <p>First Love &copy; 2018 怀念初恋 | My Love</p>
+    </footer>
+    <EMBED src="1.mp3" loop="true" width="0" height="0">
+
+    <script>
+        var oTop = document.getElementById('top'),
+            timer;
+
+        oTop.onclick = back;
+        function back() {
+
+            clearTimeout(timer);
+            if(document.documentElement.scrollTop > 0){
+
+            document.documentElement.scrollTop -= 100;
+            timer = setTimeout(back,1000/100);
+            }
+        }
+    </script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+        
+         document.querySelector('main').className += 'loaded';
+        
+        });
+        
+        </script>
+  </body>
+  </html>
