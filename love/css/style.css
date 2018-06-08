@@ -59,7 +59,7 @@ header .head{
     margin:0 .4rem;
     border:#fff 1px solid;
     border-radius:50%;
-    background-image: url('img/libg.png');
+    background-image: url('../img/libg.png');
     background-size: 190% 190%;
     background-position: -.9rem;
     color:#fff;
@@ -257,7 +257,7 @@ footer i{
     width:1rem;
     height:1rem;
     vertical-align:middle;
-    background-image: url('img/love.png');
+    background-image: url('../img/love.png');
     background-size: cover;
 }
 footer>p{
