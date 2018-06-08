@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <title>灯火阑珊处</title>
+  <style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	
+  </style>
+  </head>
+  <body>
+    <div id='top'> < </div>  
+    <header>
+        <div class='head'>
+            <div class='logo'>
+                <a href='javascript:;'>
+                    <h1>怀念初恋<span>My Love</span></h1>
+                </a>
+            </div>
+            <ul>
+                <li>灯</li>
+                <li>火</li>
+                <li>阑</li>
+                <li>珊</li>
+                <li>处</li>
+            </ul>
+        </div>
+        <div class='head_text'>
+            <p>我看过银河 <span>可我只爱一粒星</span></p>
+            <p>我想，</p>
+            <p>你我之间的关系比陌生人多一点，</p>
+            <p>比好朋友少一点儿，</p>
+            <p>比擦肩而过复杂点儿，</p>
+            <p>比萍水相逢简单点儿。</p>
+        </div>
+    </header>
+    <section>
+        
+    </section>
+    <footer>
+        <p>执子之手 <i></i> 与子偕老</p>
+        <p>First Love &copy; 2018 怀念初恋 | My Love</p>
+    </footer>
+    <EMBED src="2.mp3" loop="true" width="0" height="0">
+
+    <script>
+        //返回顶部
+        var oTop = document.getElementById('top'),
+            timer;
+
+        oTop.onclick = back;
+        function back() {
+
+            clearTimeout(timer);
+            if(document.documentElement.scrollTop > 0){
+
+            document.documentElement.scrollTop -= 100;
+            timer = setTimeout(back,1000/100);
+            }
+        }
+    </script>
+  </body>
+  </html>
