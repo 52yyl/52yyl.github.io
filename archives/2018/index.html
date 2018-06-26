@@ -3,7 +3,13 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2018 | 墨殇博客|专注互联网技术</title>
+  <title>web前端,博客,程序员-Archives: 2018 | 墨殇博客|专注互联网技术</title>
+
+  <!-- keywords -->
+  
+    <meta name="keywords" content="web前端,博客,程序员">
+  
+
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="墨殇博客,实时分享互联网前沿技术.web前端,PHP,python,C等.">
 <meta name="keywords" content="web前端,博客,程序员">
@@ -20,248 +26,175 @@
     <link rel="alternative" href="/atom.xml" title="墨殇博客|专注互联网技术" type="application/atom+xml">
   
   
-    <link rel="icon" href="/img/favicon.ico">
-  
-  
-      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+    <link rel="icon" href="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg">
   
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   
   
-      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  <script src="//cdn.bootcss.com/require.js/2.3.2/require.min.js"></script>
+  <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+
   
-  <!-- 加载特效 -->
-    <script src="/js/pace.js"></script>
-    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
-  <script>
-      var yiliaConfig = {
-          rootUrl: '/',
-          fancybox: true,
-          animate: true,
-          isHome: false,
-          isPost: false,
-          isArchive: true,
-          isTag: false,
-          isCategory: false,
-          open_in_new: true
-      }
-  </script>
 </head>
 <body>
   <div id="container">
+    <div id="particles-js"></div>
     <div class="left-col">
     <div class="overlay"></div>
 <div class="intrude-less">
-    <header id="header" class="inner">
-        <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
-        <a href="/" class="profilepic">
-            
-            <img lazy-src="https://s1.ax2x.com/2018/06/06/ROBiu.th.jpg" class="js-avatar">
-            
-        </a>
-        <hgroup>
-          <h1 class="header-author"><a href="/">墨若浮尘 殇死随风</a></h1>
-        </hgroup>
-        
-        
-            <form>
-                <input type="text" class="st-default-search-input search" id="local-search-input" placeholder="搜索一下" autocomplete="off">
-            </form>
-            <div id="local-search-result"></div>
-        
-        
-            <script type="text/javascript">
-                (function() {
-                    'use strict';
-                    function getMatchData(keyword, data) {
-                        var matchData = [];
-                        for(var i =0;i<data.length;i++){
-                            if(data[i].title.toLowerCase().indexOf(keyword)>=0) 
-                                matchData.push(data[i])
-                        }
-                        return matchData;
-                    }
-                    var $input = $('#local-search-input');
-                    var $resultContent = $('#local-search-result');
-                    $input.keyup(function(){
-                        $.ajax({
-                            url: '/search.json',
-                            dataType: "json",
-                            success: function( json ) {
-                                var str='<ul class=\"search-result-list\">';                
-                                var keyword = $input.val().trim().toLowerCase();
-                                $resultContent.innerHTML = "";
-                                if ($input.val().trim().length <= 0) {
-                                    $resultContent.empty();
-                                    $('#switch-area').show();
-                                    return;
-                                }
-                                var results = getMatchData(keyword, json);
-                                if(results.length === 0){
-                                    $resultContent.empty();
-                                    $('#switch-area').show();
-                                    return;
-                                } 
-                                for(var i =0; i<results.length; i++){
-                                    str += "<li><a href='"+ results[i].url +"' class='search-result-title'>"+ results[i].title +"</a></li>";
-                                }
-                                str += "</ul>";
-                                $resultContent.empty();
-                                $resultContent.append(str);
-                                $('#switch-area').hide();
-                            }
-                        });
-                    });
-                })();
-            </script>
-        
-        
-            <div id="switch-btn" class="switch-btn">
-                <div class="icon">
-                    <div class="icon-ctn">
-                        <div class="icon-wrap icon-house" data-idx="0">
-                            <div class="birdhouse"></div>
-                            <div class="birdhouse_holes"></div>
-                        </div>
-                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
-                            <div class="ribbon"></div>
-                        </div>
-                        
-                        <div class="icon-wrap icon-link hide" data-idx="2">
-                            <div class="loopback_l"></div>
-                            <div class="loopback_r"></div>
-                        </div>
-                        
-                        
-                        <div class="icon-wrap icon-me hide" data-idx="3">
-                            <div class="user"></div>
-                            <div class="shoulder"></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="tips-box hide">
-                    <div class="tips-arrow"></div>
-                    <ul class="tips-inner">
-                        <li>菜单</li>
-                        <li>标签</li>
-                        
-                        <li>友情链接</li>
-                        
-                        
-                        <li>关于我</li>
-                        
-                    </ul>
-                </div>
-            </div>
-        
-        <div id="switch-area" class="switch-area">
-            <div class="switch-wrap">
-                <section class="switch-part switch-part1">
-                    <nav class="header-menu">
-                        <ul>
-                        
-                            <li><a  href="https://www.hackercode.cn">博客首页</a></li>
-                        
-                            <li><a  href="/PWNABLE">慢生活</a></li>
-                        
-                            <li><a  href="/aboutme">个人简历</a></li>
-                        
-                        </ul>
-                    </nav>
-                    <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fl mail"  target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=kvH99PT39-Dn_efS5PvivOPjvPH9-w" title="mail">mail</a>
-                            
-                                <a class="fl github"  target="_blank" href="https://github.com/52yyl" title="github">github</a>
-                            
-                                <a class="fl rss"  target="_blank" href="/atom.xml" title="rss">rss</a>
-                            
-                                <a class="fl QQ"  target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2319507087&site=qq&menu=yes" title="QQ">QQ</a>
-                            
-                                <a class="fl wechat"  target="_blank" href="#" title="wechat">wechat</a>
-                            
-                        </ul>
-                    </nav>
-                </section>
-                
-                <section class="switch-part switch-part2">
-                    <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Hello-World/" style="font-size: 10px;">Hello World</a> <a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a> <a href="/tags/css/" style="font-size: 10px;">css</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/hover/" style="font-size: 10px;">hover</a> <a href="/tags/javascript/" style="font-size: 10px;">javascript</a> <a href="/tags/入门级/" style="font-size: 10px;">入门级</a> <a href="/tags/命令行/" style="font-size: 10px;">命令行</a> <a href="/tags/坦白说/" style="font-size: 10px;">坦白说</a> <a href="/tags/学习生涯/" style="font-size: 10px;">学习生涯</a> <a href="/tags/段子/" style="font-size: 10px;">段子</a> <a href="/tags/破解/" style="font-size: 10px;">破解</a> <a href="/tags/程序员/" style="font-size: 10px;">程序员</a> <a href="/tags/背景音乐/" style="font-size: 10px;">背景音乐</a> <a href="/tags/菜鸡黑客/" style="font-size: 10px;">菜鸡黑客</a> <a href="/tags/音乐播放器/" style="font-size: 10px;">音乐播放器</a> <a href="/tags/鼠标悬停/" style="font-size: 10px;">鼠标悬停</a>
-                    </div>
-                </section>
-                
-                
-                <section class="switch-part switch-part3">
-                    <div id="js-friends">
-                    
-                      <a target="_blank"  class="main-nav-link switch-friends-link" href="http://52yyl.cn/">咸鱼技术联盟</a>
-                    
-                    </div>
-                </section>
-                
-                
-                
-                <section class="switch-part switch-part4">
-                
-                    <div id="js-aboutme">一只淹死在代码海洋里的学生狗</div>
-                </section>
-                
-            </div>
-        </div>
-    </header>
-</div>
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="https://s1.ax2x.com/2018/06/24/ggNLr.jpg" class="js-avatar">
+			
+		</a>
 
+		<hgroup>
+		  <h1 class="header-author"><a href="/">墨若浮尘 殇死随风</a></h1>
+		</hgroup>
+
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						<li>友情链接</li>
+						
+						
+						<li>关于我</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/52yyl" title="github">github</a>
+					        
+								<a class="mail" target="_blank" href="#" title="mail">mail</a>
+					        
+								<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2319507087&amp;site=qq&amp;menu=yes" title="qq">qq</a>
+					        
+								<a class="facebook" target="_blank" href="#" title="facebook">facebook</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Hello-World/" style="font-size: 10px;">Hello World</a> <a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a> <a href="/tags/css/" style="font-size: 10px;">css</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/hover/" style="font-size: 10px;">hover</a> <a href="/tags/javascript/" style="font-size: 10px;">javascript</a> <a href="/tags/入门级/" style="font-size: 10px;">入门级</a> <a href="/tags/命令行/" style="font-size: 10px;">命令行</a> <a href="/tags/坦白说/" style="font-size: 10px;">坦白说</a> <a href="/tags/学习生涯/" style="font-size: 10px;">学习生涯</a> <a href="/tags/段子/" style="font-size: 10px;">段子</a> <a href="/tags/破解/" style="font-size: 10px;">破解</a> <a href="/tags/程序员/" style="font-size: 10px;">程序员</a> <a href="/tags/背景音乐/" style="font-size: 10px;">背景音乐</a> <a href="/tags/菜鸡黑客/" style="font-size: 10px;">菜鸡黑客</a> <a href="/tags/音乐播放器/" style="font-size: 10px;">音乐播放器</a> <a href="/tags/鼠标悬停/" style="font-size: 10px;">鼠标悬停</a>
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.52yyl.cn">妖妖灵技术团队</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+				
+				<section class="switch-part switch-part4">
+				
+					<div id="js-aboutme">一直淹死在代码海洋里的学生狗.</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
     </div>
     <div class="mid-col">
       <nav id="mobile-nav">
-      <div class="overlay">
-          <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="Me">墨若浮尘 殇死随风</a></h1>
-      </div>
-    <div class="intrude-less">
-        <header id="header" class="inner">
-            <a href="/" class="profilepic">
-                
-                    <img lazy-src="/https://s1.ax2x.com/2018/06/06/ROBiu.th.jpg" class="js-avatar">
-                
-            </a>
-            <hgroup>
-              <h1 class="header-author"><a href="/" title="Me">墨若浮尘 殇死随风</a></h1>
-            </hgroup>
-            
-            <nav class="header-menu">
-                <ul>
-                
-                    <li><a href="https://www.hackercode.cn">博客首页</a></li>
-                
-                    <li><a href="/PWNABLE">慢生活</a></li>
-                
-                    <li><a href="/aboutme">个人简历</a></li>
-                
-                <div class="clearfix"></div>
-                </ul>
-            </nav>
-            <nav class="header-nav">
-                <div class="social">
-                    
-                        <a class="mail" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=kvH99PT39-Dn_efS5PvivOPjvPH9-w" title="mail">mail</a>
-                    
-                        <a class="github" target="_blank" href="https://github.com/52yyl" title="github">github</a>
-                    
-                        <a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
-                    
-                        <a class="QQ" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2319507087&site=qq&menu=yes" title="QQ">QQ</a>
-                    
-                        <a class="wechat" target="_blank" href="#" title="wechat">wechat</a>
-                    
-                </div>
-            </nav>
-        </header>                
-    </div>
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">墨若浮尘 殇死随风</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="https://s1.ax2x.com/2018/06/24/ggNLr.jpg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">墨若浮尘 殇死随风</h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/52yyl" title="github">github</a>
+			        
+						<a class="mail" target="_blank" href="#" title="mail">mail</a>
+			        
+						<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2319507087&amp;site=qq&amp;menu=yes" title="qq">qq</a>
+			        
+						<a class="facebook" target="_blank" href="#" title="facebook">facebook</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
 </nav>
       <div class="body-wrap">
   
@@ -279,26 +212,30 @@
     <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/06/24/最新坦白说破解方法/" class="archive-article-date">
-      <time datetime="2018-06-24T12:04:05.000Z" itemprop="datePublished">06-24</time>
+      	<div class="article-meta">
+	      	<a href="/2018/06/24/最新坦白说破解方法/" class="archive-article-date">
+  	<time datetime="2018-06-24T12:04:05.000Z" itemprop="datePublished">Jun 24</time>
 </a>
         </div>
-         
+    	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/06/24/最新坦白说破解方法/">最新坦白说破解方法!!!</a>
+      <a class="archive-article-title" href="/2018/06/24/最新坦白说破解方法/">
+        最新坦白说破解方法!!!
+        
+      </a>
     </h1>
   
 
-        <div class="article-info info-on-archive">
+        <div class="article-info info-on-left">
+          
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/坦白说/">坦白说</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/破解/">破解</a></li></ul>
+	</div>
+
           
 
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/坦白说/">坦白说</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/破解/">破解</a></li></ul>
-    </div>
-
         </div>
         <div class="clearfix"></div>
     </header>
@@ -310,26 +247,30 @@
     <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/06/06/关于程序员的段子-有没有get到你的点/" class="archive-article-date">
-      <time datetime="2018-06-06T15:18:00.236Z" itemprop="datePublished">06-06</time>
+      	<div class="article-meta">
+	      	<a href="/2018/06/06/关于程序员的段子-有没有get到你的点/" class="archive-article-date">
+  	<time datetime="2018-06-06T15:18:00.236Z" itemprop="datePublished">Jun 6</time>
 </a>
         </div>
-         
+    	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/06/06/关于程序员的段子-有没有get到你的点/">关于程序员的段子,有没有get到你的点?</a>
+      <a class="archive-article-title" href="/2018/06/06/关于程序员的段子-有没有get到你的点/">
+        关于程序员的段子,有没有get到你的点?
+        
+      </a>
     </h1>
   
 
-        <div class="article-info info-on-archive">
+        <div class="article-info info-on-left">
+          
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/段子/">段子</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/程序员/">程序员</a></li></ul>
+	</div>
+
           
 
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/段子/">段子</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/程序员/">程序员</a></li></ul>
-    </div>
-
         </div>
         <div class="clearfix"></div>
     </header>
@@ -341,26 +282,30 @@
     <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/06/06/玩转Git命令行/" class="archive-article-date">
-      <time datetime="2018-06-06T13:14:41.000Z" itemprop="datePublished">06-06</time>
+      	<div class="article-meta">
+	      	<a href="/2018/06/06/玩转Git命令行/" class="archive-article-date">
+  	<time datetime="2018-06-06T13:14:41.000Z" itemprop="datePublished">Jun 6</time>
 </a>
         </div>
-         
+    	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/06/06/玩转Git命令行/">玩转Git命令行</a>
+      <a class="archive-article-title" href="/2018/06/06/玩转Git命令行/">
+        玩转Git命令行
+        
+      </a>
     </h1>
   
 
-        <div class="article-info info-on-archive">
+        <div class="article-info info-on-left">
+          
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/命令行/">命令行</a></li></ul>
+	</div>
+
           
 
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/命令行/">命令行</a></li></ul>
-    </div>
-
         </div>
         <div class="clearfix"></div>
     </header>
@@ -372,26 +317,30 @@
     <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/06/05/hexo博客插入背景音乐/" class="archive-article-date">
-      <time datetime="2018-06-05T06:08:53.000Z" itemprop="datePublished">06-05</time>
+      	<div class="article-meta">
+	      	<a href="/2018/06/05/hexo博客插入背景音乐/" class="archive-article-date">
+  	<time datetime="2018-06-05T06:08:53.000Z" itemprop="datePublished">Jun 5</time>
 </a>
         </div>
-         
+    	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/06/05/hexo博客插入背景音乐/">hexo博客插入背景音乐</a>
+      <a class="archive-article-title" href="/2018/06/05/hexo博客插入背景音乐/">
+        hexo博客插入背景音乐
+        
+      </a>
     </h1>
   
 
-        <div class="article-info info-on-archive">
+        <div class="article-info info-on-left">
+          
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/背景音乐/">背景音乐</a></li></ul>
+	</div>
+
           
 
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/背景音乐/">背景音乐</a></li></ul>
-    </div>
-
         </div>
         <div class="clearfix"></div>
     </header>
@@ -403,26 +352,30 @@
     <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/06/05/六种炫酷鼠标悬停效果/" class="archive-article-date">
-      <time datetime="2018-06-05T05:08:53.000Z" itemprop="datePublished">06-05</time>
+      	<div class="article-meta">
+	      	<a href="/2018/06/05/六种炫酷鼠标悬停效果/" class="archive-article-date">
+  	<time datetime="2018-06-05T05:08:53.000Z" itemprop="datePublished">Jun 5</time>
 </a>
         </div>
-         
+    	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/06/05/六种炫酷鼠标悬停效果/">六种炫酷鼠标悬停效果</a>
+      <a class="archive-article-title" href="/2018/06/05/六种炫酷鼠标悬停效果/">
+        六种炫酷鼠标悬停效果
+        
+      </a>
     </h1>
   
 
-        <div class="article-info info-on-archive">
+        <div class="article-info info-on-left">
+          
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/css/">css</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hover/">hover</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/鼠标悬停/">鼠标悬停</a></li></ul>
+	</div>
+
           
 
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/css/">css</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hover/">hover</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/鼠标悬停/">鼠标悬停</a></li></ul>
-    </div>
-
         </div>
         <div class="clearfix"></div>
     </header>
@@ -434,26 +387,30 @@
     <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/06/04/音乐播放器/" class="archive-article-date">
-      <time datetime="2018-06-04T13:50:20.404Z" itemprop="datePublished">06-04</time>
+      	<div class="article-meta">
+	      	<a href="/2018/06/04/音乐播放器/" class="archive-article-date">
+  	<time datetime="2018-06-04T13:50:20.404Z" itemprop="datePublished">Jun 4</time>
 </a>
         </div>
-         
+    	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/06/04/音乐播放器/">音乐播放器demo</a>
+      <a class="archive-article-title" href="/2018/06/04/音乐播放器/">
+        音乐播放器demo
+        
+      </a>
     </h1>
   
 
-        <div class="article-info info-on-archive">
+        <div class="article-info info-on-left">
+          
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/音乐播放器/">音乐播放器</a></li></ul>
+	</div>
+
           
 
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/音乐播放器/">音乐播放器</a></li></ul>
-    </div>
-
         </div>
         <div class="clearfix"></div>
     </header>
@@ -465,26 +422,30 @@
     <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/05/21/MarkDown语法总结/" class="archive-article-date">
-      <time datetime="2018-05-21T13:12:26.000Z" itemprop="datePublished">05-21</time>
+      	<div class="article-meta">
+	      	<a href="/2018/05/21/MarkDown语法总结/" class="archive-article-date">
+  	<time datetime="2018-05-21T13:12:26.000Z" itemprop="datePublished">May 21</time>
 </a>
         </div>
-         
+    	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/05/21/MarkDown语法总结/">MarkDown语法总结</a>
+      <a class="archive-article-title" href="/2018/05/21/MarkDown语法总结/">
+        MarkDown语法总结
+        
+      </a>
     </h1>
   
 
-        <div class="article-info info-on-archive">
+        <div class="article-info info-on-left">
+          
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MarkDown/">MarkDown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/入门级/">入门级</a></li></ul>
+	</div>
+
           
 
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MarkDown/">MarkDown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/入门级/">入门级</a></li></ul>
-    </div>
-
         </div>
         <div class="clearfix"></div>
     </header>
@@ -496,26 +457,30 @@
     <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/05/20/2018.5.20/" class="archive-article-date">
-      <time datetime="2018-05-20T03:12:54.374Z" itemprop="datePublished">05-20</time>
+      	<div class="article-meta">
+	      	<a href="/2018/05/20/2018.5.20/" class="archive-article-date">
+  	<time datetime="2018-05-20T03:12:54.374Z" itemprop="datePublished">May 20</time>
 </a>
         </div>
-         
+    	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/05/20/2018.5.20/">从入门到入坑</a>
+      <a class="archive-article-title" href="/2018/05/20/2018.5.20/">
+        从入门到入坑
+        
+      </a>
     </h1>
   
 
-        <div class="article-info info-on-archive">
+        <div class="article-info info-on-left">
+          
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/学习生涯/">学习生涯</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/菜鸡黑客/">菜鸡黑客</a></li></ul>
+	</div>
+
           
 
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/学习生涯/">学习生涯</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/菜鸡黑客/">菜鸡黑客</a></li></ul>
-    </div>
-
         </div>
         <div class="clearfix"></div>
     </header>
@@ -527,26 +492,30 @@
     <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/05/19/hello-world/" class="archive-article-date">
-      <time datetime="2018-05-19T14:29:46.461Z" itemprop="datePublished">05-19</time>
+      	<div class="article-meta">
+	      	<a href="/2018/05/19/hello-world/" class="archive-article-date">
+  	<time datetime="2018-05-19T14:29:46.461Z" itemprop="datePublished">May 19</time>
 </a>
         </div>
-         
+    	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/05/19/hello-world/">Hello World</a>
+      <a class="archive-article-title" href="/2018/05/19/hello-world/">
+        Hello World
+        
+      </a>
     </h1>
   
 
-        <div class="article-info info-on-archive">
+        <div class="article-info info-on-left">
+          
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hello-World/">Hello World</a></li></ul>
+	</div>
+
           
 
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hello-World/">Hello World</a></li></ul>
-    </div>
-
         </div>
         <div class="clearfix"></div>
     </header>
@@ -561,126 +530,58 @@
 
 </div>
       <footer id="footer">
-    <div class="outer">
-        <div id="footer-info">
-            <div class="footer-left">
-                &copy; 2018 墨若浮尘 殇死随风
-            </div>
-            <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank">Hexo</a> 强力驱动 <a href="https://52yyl.github.io" target="_blank">MoShang's blog</a> by 墨殇
-            </div>
+  <div class="outer">
+    <div id="footer-info">
+      <div class="footer-left">
+        &copy; 2018 墨若浮尘 殇死随风
+      </div>
+        <div class="footer-right">
+          <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/smackgg/hexo-theme-smackdown" target="_blank">Smackdown</a>
         </div>
-        
-            <div class="visit">
-                
-                    <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" >渣渣到访数: 
-                            <span id="busuanzi_value_site_uv"></span>
-                        </span>
-                    </span>
-                
-                
-                    <span>, </span>
-                
-                
-                    <span id="busuanzi_container_page_pv" style='display:none'>
-                        <span id="page-visit">本页阅读量: 
-                            <span id="busuanzi_value_page_pv"></span>
-                        </span>
-                    </span>
-                
-            </div>
-        
     </div>
+  </div>
 </footer>
-
     </div>
-    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: false,
+		isArchive: true,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
 <script src="/js/main.js"></script>
 
-    <script>
-        $(document).ready(function() {
-            var backgroundnum = 24;
-            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
-            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-        })
-    </script>
 
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
 
-
-
-<div class="scroll" id="scroll">
-    <a href="#"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
-</div>
-<script>
-    $(document).ready(function() {
-        if ($("#comments").length < 1) {
-            $("#scroll > a:nth-child(2)").hide();
-        };
-    })
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
 </script>
 
-    <button class="hide-labels">TAG 开关</button>
-    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js">
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("button").click(function() {
-                $(".article-info").toggle(200);
-            });
-        });
-    </script>
+<script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js"></script>
 
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
-
-  <script language="javascript">
-    $(function() {
-        $("a[title]").each(function() {
-            var a = $(this);
-            var title = a.attr('title');
-            if (title == undefined || title == "") return;
-            a.data('title', title).removeAttr('title').hover(
-
-            function() {
-                var offset = a.offset();
-                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
-                    top: offset.top - a.outerHeight() - 15,
-                    left: offset.left + a.outerWidth()/2 + 1
-                }).fadeIn(function() {
-                    var pop = $(this);
-                    setTimeout(function() {
-                        pop.remove();
-                    }, pop.text().length * 800);
-                });
-            }, function() {
-                $("#anchortitlecontainer").remove();
-            });
-        });
-    });
-</script>
-
-
-    <script type="text/javascript">
-      window.onload = function(){
-        document.getElementById("search").onclick = function(){
-            console.log("search")
-            search();
-        }
-      }
-      function search(){
-        (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-        (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-        e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-        })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-        _st('install','A1Pz-LKMXbrzcFg2FWi6','2.0.0');
-      }
-    </script>
 
   </div>
 </body>
