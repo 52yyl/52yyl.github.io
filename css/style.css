@@ -164,17 +164,13 @@ h6 {
   font-size: 1em;
 }
 a {
-  display: inline-block;
-  width: 8rem;
-  height: 3rem;
-  margin-right: 2rem;
-  background-color: #ffa500;
-  text-align: center;
   text-decoration: none;
   outline-width: 0;
-  color: #ddd;
-  line-heihgt: 3rem;
+  color: #258fb8;
   outline: none;
+}
+.link {
+  display: inline-block;
 }
 .alignleft {
   float: left;
