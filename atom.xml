@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>墨殇の博客</title>
   
-  
+  <subtitle>因为梦想，所以选择远方</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.hackercode.cn/"/>
@@ -10,7 +10,7 @@
   <id>https://www.hackercode.cn/</id>
   
   <author>
-    <name>因为梦想，所以选择远方</name>
+    <name>墨殇</name>
     
   </author>
   
