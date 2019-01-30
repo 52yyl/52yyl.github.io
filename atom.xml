@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>墨殇博客|专注互联网技术</title>
+  <title>墨殇の博客</title>
   
   
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://www.hackercode.cn/</id>
   
   <author>
-    <name>墨若浮尘 殇死随风</name>
+    <name>因为梦想，所以选择远方</name>
     
   </author>
   
