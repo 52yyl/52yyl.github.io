@@ -343,7 +343,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>Word Count:&nbsp;&nbsp;
-                        432
+                        442
                     </div>
                     
 
@@ -367,8 +367,51 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <script src="/assets/js/APlayer.min.js"> </script><p>Markdown是一种轻量级的『标记语言』，用简洁的语法代替排版。其不追求大而全,只追求易读易写,其简洁的语法成为广受码农欢迎的网络语言.<a id="more"></a><br>    本篇介绍Markdown基本语法，内容很少，学会后可轻松写出高大上的文档，再也不需要各种编辑器去调文章格式。另外，网上有各平台下的Markdown工具可用，也有在线的，我比较习惯用sublime搞定，Markdown本来就是为了追求简洁，弄个工具岂不多此一举。</p>
-<pre><code><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">//1.标题</span><br><span class="line">#1</span><br><span class="line">##2</span><br><span class="line">###3</span><br><span class="line">####4</span><br><span class="line">#####5</span><br><span class="line">######6</span><br><span class="line">//2.块注释</span><br><span class="line">通过在文字开头添加“&gt;”表示块注释。（当&gt;和文字之间添加五个blank时，块注释的文字会有变化。）</span><br><span class="line">//3.斜体</span><br><span class="line">将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来</span><br><span class="line">//4.列表</span><br><span class="line">(1)有序列表:</span><br><span class="line">使用数字后面跟上句号。（还要有空格）</span><br><span class="line">(2)无序列表</span><br><span class="line">在文字开头添加(*,+, and-)实现无序列表。但是要注意在(*,+, and-)和文字之间需要添加空格。（建议：一个文档中只是用一种无序列表的表示方式)</span><br><span class="line">//4.链接</span><br><span class="line">Markdown中有两种方式，实现链接，分别为内联方式和引用方式。</span><br><span class="line"></span><br><span class="line">内联方式：This is an [example link](http://example.com/).</span><br><span class="line"></span><br><span class="line">引用方式：</span><br><span class="line"></span><br><span class="line">I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].</span><br><span class="line"></span><br><span class="line">[1]: http://google.com/        "Google"</span><br><span class="line"></span><br><span class="line">[2]: http://search.yahoo.com/  "Yahoo Search"</span><br><span class="line"></span><br><span class="line">[3]: http://search.msn.com/    "MSN Search"</span><br><span class="line"></span><br><span class="line">5. 图片（Images）</span><br><span class="line"></span><br><span class="line">图片的处理方式和链接的处理方式，非常的类似。</span><br><span class="line"></span><br><span class="line">内联方式：![alt text](/path/to/img.jpg "Title")</span><br><span class="line"></span><br><span class="line">引用方式：</span><br><span class="line"></span><br><span class="line">![alt text][id]</span><br><span class="line"></span><br><span class="line">[id]: /path/to/img.jpg "Title"</span><br></pre></td></tr></table></figure>
-</code></pre>
+<pre><code>```html
+//1.标题
+#1
+##2
+###3
+####4
+#####5
+######6
+//2.块注释
+通过在文字开头添加“&gt;”表示块注释。（当&gt;和文字之间添加五个blank时，块注释的文字会有变化。）
+//3.斜体
+将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来
+//4.列表
+(1)有序列表:
+使用数字后面跟上句号。（还要有空格）
+(2)无序列表
+在文字开头添加(*,+, and-)实现无序列表。但是要注意在(*,+, and-)和文字之间需要添加空格。（建议：一个文档中只是用一种无序列表的表示方式)
+//4.链接
+Markdown中有两种方式，实现链接，分别为内联方式和引用方式。
+
+内联方式：This is an [example link](http://example.com/).
+
+引用方式：
+
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
+
+[1]: http://google.com/        &quot;Google&quot;
+
+[2]: http://search.yahoo.com/  &quot;Yahoo Search&quot;
+
+[3]: http://search.msn.com/    &quot;MSN Search&quot;
+
+5. 图片（Images）
+
+图片的处理方式和链接的处理方式，非常的类似。
+
+内联方式：![alt text](/path/to/img.jpg &quot;Title&quot;)
+
+引用方式：
+
+![alt text][id]
+
+[id]: /path/to/img.jpg &quot;Title&quot;
+</code></pre><p> <code>`</code></p>
+
             </div>
             <hr/>
 
